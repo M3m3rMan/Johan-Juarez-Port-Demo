@@ -1,0 +1,143 @@
+body {
+  font-family: Nunito, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+  background-color: #DAE3E5;
+  color:#333;
+}
+
+h3 {
+  margin: 5px 5px;
+}
+
+h5 {
+  margin: 5px 5px;
+  color: darkgray;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+header:hover {
+  background: #5a9bd6;
+  color: #000;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about #content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about img {
+  max-width: 200px;
+  border-radius: 50%;
+  margin: auto;
+  transition: transform 0.3s ease;
+}
+
+#about img:hover {
+  transform: scale(1.1);
+}
+
+.tab-container {
+  border: 1px solid #ddd;
+  margin: 1rem 0;
+}
+
+.tabs {
+  display: flex;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 1rem;
+  cursor: pointer;
+  background: #f0f0f0;
+  border: none;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+.tab-button.active {
+  background: #ddd;
+}
+
+.tab-button:hover {
+  background: #ddd;
+}
+
+.tab-content {
+  display: none;
+  padding: 1rem;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+footer {
+  background: #4682B4;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+footer:hover {
+  background: #5a9bd6;
+  color: #000;
+}
+
+.tab-content:hover {
+  background: #f0f8ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
